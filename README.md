@@ -1,60 +1,54 @@
 # 🏗️ Construction Progress Dashboard
 
-A web-based dashboard for monitoring construction progress, project status, indicators, and operational reports.
+A portfolio demo web application for monitoring construction projects and weighted process progress.
 
-This project demonstrates the development of a business-oriented web application using PHP, MySQL, JavaScript, Bootstrap, DataTables, and Highcharts.
+> **Demo project:** all data is fictional. No production or confidential information is included.
 
-> **Note:** This is a demonstration project using fictional data. No confidential or production information is included.
+## Features
 
----
+- Project overview dashboard
+- KPI cards for total projects, overall progress, active and completed projects
+- Searchable and sortable project table
+- Weighted construction progress calculation
+- Project detail view
+- Progress by construction process
+- Register or update process progress from the web interface
+- Progress history and weighted evolution chart
+- Dynamic project filters by status and location
+- Date-based progress history
+- Input validation for progress values (0–100)
+- Interactive Highcharts visualizations
+- Responsive Bootstrap interface
+- MySQL database integration with PDO
 
-## 📊 Features
+## Technologies
 
-- 📋 Construction project management
-- 🏠 Housing and property tracking
-- 📈 Construction progress monitoring
-- 📊 Interactive charts and indicators
-- 🔎 Dynamic filters
-- 📑 Data tables and reports
-- 📅 Progress history
-- 🧮 Automatic progress calculations
-- 📱 Responsive interface
-- 🗄️ MySQL database integration
+PHP · MySQL · PDO · JavaScript · Bootstrap · DataTables · Highcharts · HTML5 · CSS3
 
----
+## Progress Calculation
 
-## 🛠️ Technologies
+Each construction process has a weight. The contribution of a process is calculated as:
 
-| Technology | Purpose |
-|---|---|
-| PHP | Backend development |
-| MySQL | Database |
-| JavaScript | Frontend logic |
-| jQuery | DOM and AJAX interactions |
-| Bootstrap | Responsive UI |
-| DataTables | Data management and tables |
-| Highcharts | Data visualization |
-| HTML5 | Application structure |
-| CSS3 | Styling |
+`process contribution = process weight × executed progress / 100`
 
----
+The project progress is the sum of the contributions of its active processes.
 
-## 🏗️ Project Structure
+## Local Installation
 
-```text
-construction-progress-dashboard/
-│
-├── config/
-│   └── database.example.php
-│
-├── database/
-│   └── database.sql
-│
-├── public/
-│   ├── index.php
-│   ├── css/
-│   └── js/
-│
-├── screenshots/
-│
-└── README.md
+1. Create the `construction_dashboard` database.
+2. Import `database/database.sql`.
+3. Copy `config/database.example.php` to `config/database.php`.
+4. Set your local MySQL credentials.
+5. Place the project in your XAMPP `htdocs` directory.
+6. Open:
+
+`http://localhost/construction-progress-dashboard/public/`
+
+## Portfolio
+
+This project demonstrates practical experience in business applications, database-driven systems, dashboards, data visualization, and business logic.
+
+## Author
+
+**Paco Ruiz**  
+Systems Engineer · Full Stack Developer · IT Administrator
