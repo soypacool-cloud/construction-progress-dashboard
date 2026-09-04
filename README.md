@@ -284,15 +284,15 @@ All demonstration project data is fictional.
 
 ### Main Dashboard
 
-![Main Dashboard](./screenshots/dashboard.png)
+![Main Dashboard](screenshots/dashboard.png)
 
 ### Project Detail
 
-![Project Detail](./screenshots/project-detail.png)
+![Project Detail](screenshots/project-detail.png)
 
 ### Progress History
 
-![Progress History](./screenshots/progress-history.png)
+![Progress History](screenshots/progress-history.png)
 
 ---
 
