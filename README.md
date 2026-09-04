@@ -282,19 +282,17 @@ All demonstration project data is fictional.
 
 ## 📊 Dashboard Screenshots
 
-Screenshots of the application will be added here.
-
 ### Main Dashboard
 
-![Construction Progress Dashboard](screenshots/dashboard.png)
+![Main Dashboard](./screenshots/dashboard.png)
 
 ### Project Detail
 
-![Project Detail](screenshots/project-detail.png)
+![Project Detail](./screenshots/project-detail.png)
 
 ### Progress History
 
-![Progress History](screenshots/progress-history.png)
+![Progress History](./screenshots/progress-history.png)
 
 ---
 
